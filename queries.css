@@ -195,12 +195,12 @@
 
   .foot-img {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0rem;
+    gap: 2rem;
     padding-top: 3rem;
   }
 
   .foot-img img {
-    height: 2rem;
+    height: 3rem;
     display: flex;
     justify-self: center;
   }
