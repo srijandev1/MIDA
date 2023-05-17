@@ -1,0 +1,324 @@
+@media all and (max-width: 600px) and (orientation: portrait) {
+  nav {
+    visibility: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    /* overflow: auto; */
+  }
+  header {
+    visibility: none;
+  }
+  .hero-description {
+    width: 600px;
+    padding-top: 5rem;
+    font-size: 40px;
+  }
+  .heading-primary {
+    width: 1300px;
+    font-size: 170px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-img {
+    position: absolute;
+    width: 825px;
+    height: 825px;
+    left: 600px;
+    top: 100px;
+    z-index: -1;
+  }
+  .hero-description1 {
+    font-size: 60px;
+    padding-bottom: 80px;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 70px;
+    padding: 30px 40px;
+    border-radius: 40px;
+    margin-right: 70px;
+  }
+  .pp {
+    font-size: 40px;
+    width: 1000px;
+    padding-left: 400px;
+    padding-bottom: 20px;
+  }
+  .ls {
+    grid-template-columns: 1fr;
+    width: 1300px;
+    height: 600px;
+    margin-left: 70px;
+  }
+
+  .l1 img {
+    height: 200px;
+    margin-right: 1.1rem;
+  }
+  .l1 {
+    font-size: 50px;
+    width: 1200px;
+  }
+
+  /* about */
+
+  .about {
+    grid-template-columns: 1fr;
+    margin-left: 60px;
+  }
+
+  .about-img {
+    position: absolute;
+    width: 1225px;
+    height: 1225px;
+    left: 0;
+    opacity: 0.4;
+    top: 2300px;
+    z-index: -1;
+  }
+  .abt-hed {
+    font-size: 150px;
+  }
+
+  .abt {
+    width: 1320px;
+  }
+
+  .abt-txt {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .about2 {
+    border-radius: 40px;
+    width: 1400px;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+  }
+
+  .abt2-hed {
+    font-size: 60px;
+  }
+  .abt2-p {
+    font-size: 60px;
+    line-height: 70px;
+    padding-bottom: 100px;
+  }
+
+  .mod-hed {
+    font-size: 100px;
+    width: 2000px;
+  }
+  .mod-p {
+    width: 1300px;
+    font-size: 60px;
+    padding-bottom: 50px;
+  }
+
+  .schedule {
+    grid-template-columns: 1fr;
+    width: 1400px;
+  }
+  .sch-status h1 {
+    font-size: 90px;
+  }
+
+  .sch-status p {
+    font-size: 70px;
+  }
+
+  .speak {
+    width: 1350px;
+    margin-left: 50px;
+    padding: 50px;
+  }
+  .speak h1 {
+    font-size: 80px;
+  }
+
+  .face div p {
+    font-size: 50px;
+  }
+  .scholor {
+    font-size: 50px;
+  }
+  .bio {
+    font-size: 70px;
+    padding-bottom: 80px 0;
+  }
+  .uni {
+    padding-bottom: 60px;
+  }
+  .speak img {
+    height: 300px;
+  }
+
+  /* committee */
+
+  .org-hed {
+    display: block;
+    padding-left: 40px;
+  }
+
+  .com-p {
+    height: 270px;
+  }
+
+  .oc {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .oc-hed {
+    font-size: 60px;
+  }
+
+  .oc-n {
+    font-size: 35px;
+  }
+  .oc-n span {
+    font-size: 30px;
+  }
+
+  /* - - - - - - - - */
+  /* Reegistration */
+  /* - - - - - - - - */
+
+  .reg-grid {
+    grid-template-columns: 1fr;
+    width: 1300px;
+  }
+
+
+  .reg-el h1 {
+    font-weight: 400;
+    font-size: 70px;
+  }
+  
+  .reg-el p {
+    font-size: 60px;
+  }
+  .reg-onl {
+    width: 1300px;
+    text-align: left;
+    padding-left: 70px;
+
+  }
+
+  /* - - - - */
+  /* Footer */
+  /* - - - - */
+
+  .footer{
+    width: 1500px;
+    text-align: center;
+  }
+  
+  .foot{
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+  }
+
+  .footer-heading {
+    font-size: 80px;
+  }
+  
+  .for {
+    font-size: 50px;
+  }
+  
+  .foot-logo {
+    height: 300px;
+  }
+  
+  
+  .foot-img {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 50px;
+  }
+  
+  .ub {
+    font-size: 70px;
+  }
+
+  address{
+    padding: 0 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  address p{
+    font-size: 70px;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 70px;
+  }
+  
+
+  /* - - - - - */
+  /* Cricles */
+  /* - - - - - */
+  .circle1 {
+    left: -406px;
+    top: -280px;
+  }
+
+  .circle2 {
+    left: 1006px;
+    top: 631px;
+  }
+  .circle3 {
+    left: -561px;
+    top: 1316px;
+  }
+
+  .circle4 {
+    left: 867px;
+    top: 1931px;
+  }
+  .circle5 {
+    left: -422px;
+    top: 2491px;
+  }
+
+  .circle6 {
+    left: 890px;
+    top: 3301px;
+  }
+
+  .circle7 {
+    left: -422px;
+    top: 4091px;
+  }
+
+  .circle8 {
+    left: 890px;
+    top: 5001px;
+  }
+
+  .circle9 {
+    left: -522px;
+    top: 6091px;
+  }
+
+  .circle10 {
+    left: 990px;
+    top: 6401px;
+  }
+
+  .circle11 {
+    left: -522px;
+    top: 7091px;
+  }
+  .circle12 {
+    left: 990px;
+    top: 7601px;
+  }
+  .circle13 {
+    left: -522px;
+    top: 8491px;
+  }
+}
