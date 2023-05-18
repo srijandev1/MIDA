@@ -651,15 +651,27 @@ body {
   height: 10rem;
 }
 
-.foot-img img {
+.foot-img1 img {
   height: 5rem;
 }
-.foot-img {
+.foot-img2 img {
+  height: 5rem;
+}
+.foot-icon img {
+  height: 4rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.foot-img1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.foot-img2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
-
 .ub {
   padding-bottom: 1rem;
 }
