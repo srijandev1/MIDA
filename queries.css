@@ -193,21 +193,19 @@
     height: 5rem;
   }
 
-  .foot-img {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    padding-top: 3rem;
-  }
+
 
   .foot-img img {
     height: 3rem;
     display: flex;
     justify-self: center;
   }
-  .foot-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+  .foot-img1 {
+    gap: 2rem;
+  }
+  .foot-img2 {
+    gap: 0rem;
   }
   .ub {
     font-size: 1.5rem;
