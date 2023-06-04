@@ -42,7 +42,7 @@
     align-items: center;
     gap: 1.5rem;
   }
-  .hero-btn a{
+  .hero-btn a {
     width: 20rem;
   }
   .btn,
@@ -200,14 +200,12 @@
     height: 5rem;
   }
 
-
-
   .foot-img img {
     height: 3rem;
     display: flex;
     justify-self: center;
   }
- 
+
   .foot-img1 {
     gap: 2rem;
   }
@@ -433,5 +431,50 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 2.3rem;
+  }
+
+  /* schedule responsiv */
+
+  .tabs {
+    width: 90vw;
+  }
+
+  /* Tab Content */
+  .tab-content {
+    width: 90vw;
+  }
+
+  .tab1-first-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .tab1-mid-part {
+    text-align: center;
+  }
+  .tab1-last-part {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sess-time {
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    height: 5rem;
+  }
+
+  .sess-content {
+    height: 5rem;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  
+  .tab1-first-part > div,
+  .tab1-last-part > div,
+  .tab1-mid-part > div {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr;
   }
 }
