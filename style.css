@@ -379,7 +379,7 @@ body {
   left: 867px;
   top: 1031px;
   z-index: -1;
-  background: rgba(255, 230, 0, 0.281);
+  background: rgba(255, 13, 0, 0.315);
   filter: blur(122px);
 }
 
@@ -458,7 +458,8 @@ body {
   left: -422px;
   top: 1991px;
   z-index: -1;
-  background: rgba(225, 78, 15, 0.449);
+  /* background: rgba(225, 78, 15, 0.449); */
+  background: rgba(64, 108, 215, 0.5);
   filter: blur(132px);
 }
 
@@ -469,7 +470,7 @@ body {
   left: 890px;
   top: 2701px;
   z-index: -1;
-  background: rgba(64, 108, 215, 0.5);
+  background: rgba(225, 78, 15, 0.305);
   filter: blur(122px);
 }
 
@@ -893,7 +894,8 @@ body {
 }
 
 .sess-content{
-  background-color: #ffffff1d;
+  /* background-color: #ffffff1d; */
+  background-color: #fb000021;
   height: 5rem;
   display: flex;
   flex-direction: column;
@@ -905,9 +907,11 @@ body {
 
 .lunch, .tea-break {
   background-color: #599ff424;
+  /* background-color: #ffffff1d; */
 }
 .event-name{
   font-weight: 100;
+  padding-top: 0.4rem;
 }
 /* Hide initial content */
 #tab-1-content,
