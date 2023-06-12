@@ -461,11 +461,11 @@
     display: flex;
     align-items: center;
     border-radius: 10px 0px 0px 10px;
-    height: 5rem;
+    height: 7rem;
   }
 
   .sess-content {
-    height: 5rem;
+    height: 7rem;
     border-radius: 0px 10px 10px 0px;
     font-size: 1.3rem;
   }
