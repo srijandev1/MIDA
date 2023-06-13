@@ -468,13 +468,19 @@
     height: 7rem;
     border-radius: 0px 10px 10px 0px;
     font-size: 1.3rem;
+    padding-left: 2rem;
   }
 
-  
   .tab1-first-part > div,
   .tab1-last-part > div,
   .tab1-mid-part > div {
     display: grid;
     grid-template-columns: 0.7fr 2fr;
+  }
+
+  .tab1-first-part,
+  .tab1-mid-part,
+  .tab1-last-part {
+    text-align: left;
   }
 }
